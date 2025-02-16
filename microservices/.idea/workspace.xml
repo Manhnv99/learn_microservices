@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="56ad7716-6980-4db7-9094-8dc94359cb84" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/src/main/java/home/microservices/api_gateway/ApiGatewayApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/src/main/java/home/microservices/api_gateway/config/RouteCustomConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/src/test/java/home/microservices/api_gateway/ApiGatewayApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery_server/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery_server/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery_server/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery_server/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery_server/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery_server/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery_server/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery_server/src/main/java/home/microservices/discovery_server/DiscoveryServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery_server/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery_server/src/test/java/home/microservices/discovery_server/DiscoveryServerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory_service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory_service/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory_service/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory_service/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory_service/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory_service/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory_service/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory_service/src/main/java/home/microservices/inventory_service/InventoryServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory_service/src/main/java/home/microservices/inventory_service/controller/InventoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory_service/src/main/java/home/microservices/inventory_service/entity/Inventory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory_service/src/main/java/home/microservices/inventory_service/model/response/IsInStockResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory_service/src/main/java/home/microservices/inventory_service/repository/InventoryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory_service/src/main/java/home/microservices/inventory_service/service/InventoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory_service/src/main/java/home/microservices/inventory_service/service/impl/InventoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory_service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory_service/src/test/java/home/microservices/inventory_service/InventoryServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/home/microservices/order_service/OrderServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/home/microservices/order_service/config/openfeign/inventory/CallFeignClientInventory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/home/microservices/order_service/config/webclient/WebClientConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/home/microservices/order_service/controller/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/home/microservices/order_service/entity/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/home/microservices/order_service/entity/OrderLineItems.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/home/microservices/order_service/model/dto/InventoryReceiveDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/home/microservices/order_service/model/dto/OrderLineItemsDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/home/microservices/order_service/model/request/OrderRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/home/microservices/order_service/repository/OrderRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/home/microservices/order_service/service/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/home/microservices/order_service/service/impl/OrderServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/src/test/java/home/microservices/order_service/OrderServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/src/main/java/home/microservices/product_service/ProductServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/src/main/java/home/microservices/product_service/controller/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/src/main/java/home/microservices/product_service/enitty/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/src/main/java/home/microservices/product_service/model/request/CreateProductRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/src/main/java/home/microservices/product_service/model/response/ProductResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/src/main/java/home/microservices/product_service/repository/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/src/main/java/home/microservices/product_service/service/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/src/main/java/home/microservices/product_service/service/impl/ProductServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/src/test/java/home/microservices/product_service/ProductServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2rNEHmdfPIOZd7FHJqbhvBMusah" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Coding/Vinova/aurora/aurora-order-service",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="56ad7716-6980-4db7-9094-8dc94359cb84" name="Changes" comment="" />
+      <created>1736391047506</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736391047506</updated>
+      <workItem from="1736391049467" duration="23000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
